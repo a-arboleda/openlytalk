@@ -1,0 +1,362 @@
+[
+  {
+    "id": "STORY-001",
+    "text": "Tell me about a small moment you remember clearly from childhood.",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "expressing_yourself",
+    "techniqueId": "scene_event_response",
+    "responseGuide": {
+      "steps": [
+        "Say when and where it happened.",
+        "Describe one detail you still remember.",
+        "Say why the moment stayed with you."
+      ],
+      "example": "When I was eight, I helped my grandfather water his plants. He gave me the big watering can, and I remember feeling very grown-up."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "stated time or place, one concrete remembered detail, and any meaning the learner explicitly gives the moment."
+      ],
+      "avoid": [
+        "assuming the learner's childhood was happy, difficult, safe, or formative; inventing why the memory matters."
+      ]
+    }
+  },
+  {
+    "id": "STORY-002",
+    "text": "Tell me about a time in the past six months when your plans changed unexpectedly.",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "explaining_clearly",
+    "techniqueId": "expectation_change_outcome",
+    "responseGuide": {
+      "steps": [
+        "Explain what you originally planned.",
+        "Describe what changed unexpectedly.",
+        "Say what happened after the change."
+      ],
+      "example": "I planned to stay home that weekend, but a friend invited me on a short trip. I changed my plans and had a memorable weekend."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "a clear contrast between the original plan and the change, logical order, and an explicitly stated outcome."
+      ],
+      "avoid": [
+        "inventing why the change happened or how the learner felt about it."
+      ]
+    }
+  },
+  {
+    "id": "STORY-003",
+    "text": "When was the last time something unexpected made you laugh?",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "expressing_yourself",
+    "techniqueId": "scene_event_response",
+    "responseGuide": {
+      "steps": [
+        "Set up the situation briefly.",
+        "Describe the unexpected moment.",
+        "Share how you reacted."
+      ],
+      "example": "Last week, I sent a voice message to the wrong group. My explanation made everyone laugh, including me."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "enough setup to understand the moment, the unexpected detail, and the learner's stated reaction."
+      ],
+      "avoid": [
+        "claiming the learner is funny or has a humorous personality."
+      ]
+    }
+  },
+  {
+    "id": "STORY-004",
+    "text": "Tell me about when you first met someone important to you.",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "expressing_yourself",
+    "techniqueId": "scene_event_response",
+    "responseGuide": {
+      "steps": [
+        "Say when and where you met.",
+        "Describe your first interaction.",
+        "Explain how that person later became important."
+      ],
+      "example": "I met one of my friends in a language class three years ago. We worked together on an exercise and continued talking after class."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "context for the meeting, one concrete interaction, and only the importance or connection the learner explicitly describes."
+      ],
+      "avoid": [
+        "assuming the type, closeness, duration, or meaning of the relationship."
+      ]
+    }
+  },
+  {
+    "id": "STORY-005",
+    "text": "Tell me about something you tried for the first time recently.",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "explaining_clearly",
+    "techniqueId": "first_attempt_outcome",
+    "responseGuide": {
+      "steps": [
+        "Name what you decided to try.",
+        "Describe what happened during your first attempt.",
+        "Say how it ended or what you thought afterward."
+      ],
+      "example": "I tried baking bread for the first time last month. It looked strange, but it tasted good, and I wanted to try again."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "an understandable sequence, the stated outcome, and any reaction or reflection the learner includes."
+      ],
+      "avoid": [
+        "labeling the learner brave, curious, confident, adventurous, or another stable type of person."
+      ]
+    }
+  },
+  {
+    "id": "STORY-006",
+    "text": "What’s a mistake from a few years ago you can laugh about now?",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "expressing_yourself",
+    "techniqueId": "scene_event_response",
+    "responseGuide": {
+      "steps": [
+        "Say when the mistake happened.",
+        "Describe what went wrong.",
+        "Explain why you can laugh about it now."
+      ],
+      "example": "A few years ago, I arrived at a birthday dinner on the wrong day. I felt embarrassed then, but now my friends and I laugh about it."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "sufficient context, a concrete mistake, and the learner's stated change in reaction."
+      ],
+      "avoid": [
+        "labeling the learner careless or assuming they no longer regret the mistake."
+      ]
+    }
+  },
+  {
+    "id": "STORY-007",
+    "text": "Tell me about a difficult decision you’ve made in the past six months.",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "explaining_clearly",
+    "techniqueId": "choice_reason_outcome",
+    "responseGuide": {
+      "steps": [
+        "Explain what you had to decide.",
+        "Give the main reason for your choice.",
+        "Say what happened after the decision."
+      ],
+      "example": "Earlier this year, I had to choose between two evening classes. I chose the closer one because it fit my schedule, and the decision worked well."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "an identifiable decision, the learner's main stated reason, and the stated result."
+      ],
+      "avoid": [
+        "judging whether the decision was right or attributing unstated values or motives."
+      ]
+    }
+  },
+  {
+    "id": "STORY-008",
+    "text": "What did someone teach you when you were younger that you still use?",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "explaining_clearly",
+    "techniqueId": "lesson_origin_application",
+    "responseGuide": {
+      "steps": [
+        "Say who taught you and when.",
+        "Explain what they taught you.",
+        "Give one example of how you use it today."
+      ],
+      "example": "When I was younger, a teacher showed me how to divide a big task into smaller steps. I still use that idea when something feels difficult."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "the explained learning, clear attribution, and one current example."
+      ],
+      "avoid": [
+        "assuming the relationship's importance or claiming the person transformed the learner."
+      ]
+    }
+  },
+  {
+    "id": "STORY-009",
+    "text": "Tell me about a place you visited years ago and still remember clearly.",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "expressing_yourself",
+    "techniqueId": "scene_event_response",
+    "responseGuide": {
+      "steps": [
+        "Say when and where you visited.",
+        "Describe one or two details you remember.",
+        "Explain why the place remains memorable."
+      ],
+      "example": "Ten years ago, I visited a small town near the sea. I still remember the quiet streets and the orange light at sunset."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "stated time and location, concrete details, and any meaning the learner explicitly expresses."
+      ],
+      "avoid": [
+        "assuming frequent travel or attributing unstated nostalgia or emotion."
+      ]
+    }
+  },
+  {
+    "id": "STORY-010",
+    "text": "When was the last time you felt proud of something you did?",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "expressing_yourself",
+    "techniqueId": "scene_event_response",
+    "responseGuide": {
+      "steps": [
+        "Say what you did and when.",
+        "Describe one challenge or important action.",
+        "Explain why it made you feel proud."
+      ],
+      "example": "Last month, I gave a short presentation in English. I prepared carefully and finished without reading every sentence, which made me feel proud."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "a concrete event, one relevant action, and the learner's explicit reason for feeling proud."
+      ],
+      "avoid": [
+        "labeling the learner confident, ambitious, or generally successful."
+      ]
+    }
+  },
+  {
+    "id": "STORY-011",
+    "text": "Was there a time last year when you changed your mind about something?",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "explaining_clearly",
+    "techniqueId": "view_change_reason",
+    "responseGuide": {
+      "steps": [
+        "Say what you originally thought.",
+        "Describe what happened or what you learned.",
+        "Explain how your opinion changed."
+      ],
+      "example": "Last year, I thought cooking was too difficult. After making a simple meal with a friend, I changed my mind because I enjoyed the process."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "a clear contrast between the learner's earlier and later views, plus one concrete stated reason for the change."
+      ],
+      "avoid": [
+        "judging which opinion was correct or labeling the learner open-minded, stubborn, or indecisive."
+      ]
+    }
+  },
+  {
+    "id": "STORY-012",
+    "text": "What is one of the earliest moments you can remember?",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "expressing_yourself",
+    "techniqueId": "scene_event_response",
+    "responseGuide": {
+      "steps": [
+        "Say approximately when it happened.",
+        "Describe one detail from the moment.",
+        "Explain what you still remember clearly."
+      ],
+      "example": "I remember sitting on the kitchen floor when I was about four, arranging colorful cups. I don’t remember much else, but the colors are still clear."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "an approximate time reference, one concrete detail, and honest limits on what the learner remembers."
+      ],
+      "avoid": [
+        "treating the memory as completely accurate or claiming it shaped the learner's childhood or identity."
+      ]
+    }
+  },
+  {
+    "id": "STORY-013",
+    "text": "Tell me about a recent day that didn’t go as planned.",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "explaining_clearly",
+    "techniqueId": "expectation_change_outcome",
+    "responseGuide": {
+      "steps": [
+        "Explain what you planned or expected.",
+        "Describe what changed.",
+        "Say how the day ended."
+      ],
+      "example": "Last Tuesday, I planned to finish some errands, but heavy rain delayed me. I went home earlier and completed them the next morning."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "a clear contrast between the plan and what happened, an understandable sequence, and an explicit outcome."
+      ],
+      "avoid": [
+        "blaming the learner or inferring that they handle unexpected events well or badly."
+      ]
+    }
+  },
+  {
+    "id": "STORY-014",
+    "text": "What ordinary moment from the past month became a good memory?",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "expressing_yourself",
+    "techniqueId": "scene_event_response",
+    "responseGuide": {
+      "steps": [
+        "Set up the ordinary situation.",
+        "Describe one detail from the moment.",
+        "Explain what made it a good memory."
+      ],
+      "example": "Last weekend, I drank coffee by the window while it rained. Nothing special happened, but the quiet moment stayed with me."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "an everyday context, one concrete detail, and only the positive meaning the learner explicitly gives the moment."
+      ],
+      "avoid": [
+        "labeling the learner grateful, mindful, or naturally positive."
+      ]
+    }
+  },
+  {
+    "id": "STORY-015",
+    "text": "Tell me about a time in the past year when someone surprised you.",
+    "version": 1,
+    "status": "approved",
+    "coachingLens": "responding_naturally",
+    "techniqueId": "scene_event_response",
+    "responseGuide": {
+      "steps": [
+        "Say when it happened and who was involved.",
+        "Describe what surprised you.",
+        "Explain how you responded."
+      ],
+      "example": "A few months ago, a friend brought me my favorite snack during a busy day. I didn’t expect it, and I smiled immediately."
+    },
+    "feedbackGuidance": {
+      "observe": [
+        "sufficient context, the unexpected element, and the learner's stated response."
+      ],
+      "avoid": [
+        "assuming the surprise was positive, attributing an unstated intention to the other person, or exaggerating its emotional effect."
+      ]
+    }
+  }
+]

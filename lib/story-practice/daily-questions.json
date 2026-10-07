@@ -1,0 +1,706 @@
+{
+  "id": "getting-to-know-yourself",
+  "title": "Getting to Know Yourself",
+  "questions": [
+    {
+      "id": "STORY-201",
+      "version": 1,
+      "text": "What is something you wish people understood better about you?",
+      "status": "approved",
+      "supportPrompt": "You can choose something small; you do not need to share anything private.",
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Choose one thing you would like to explain.",
+          "Add a reason or a small example."
+        ],
+        "example": "I often take a moment before answering. Sometimes people think I have nothing to say, but I am still finding the words. I would like them to give me a little more time."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-202",
+      "version": 1,
+      "text": "What would you like to make more room for in your life?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Name something you would like more time or space for.",
+          "Explain what it would mean to you."
+        ],
+        "example": "I would like more time to make things with my hands. I enjoy drawing, but I keep waiting for a free afternoon. Even a few minutes would feel good."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-203",
+      "version": 1,
+      "text": "When do you feel most comfortable being yourself?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Describe a situation where you feel comfortable.",
+          "Explain what makes that situation different for you."
+        ],
+        "example": "I feel comfortable with people who do not mind a pause in the conversation. I can think before speaking without worrying that I need to fill every silence."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-204",
+      "version": 1,
+      "text": "What is a small thing about your life that you appreciate more now?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "view_change_reason",
+      "responseGuide": {
+        "steps": [
+          "Choose one ordinary thing you appreciate.",
+          "Explain what changed in how you see it."
+        ],
+        "example": "I appreciate having a quiet place to sit. I did not think about it much before, but now I notice how nice it is to read for a few minutes without interruption."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-205",
+      "version": 1,
+      "text": "What is something you used to want but no longer do?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "view_change_reason",
+      "responseGuide": {
+        "steps": [
+          "Describe something you used to want.",
+          "Explain how you feel about it now."
+        ],
+        "example": "I used to want every weekend to be full of plans. Now I like leaving some time open. I still enjoy going out, but I do not want to plan every hour."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-206",
+      "version": 1,
+      "text": "What kind of conversation makes you feel connected to someone?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Describe what makes a conversation meaningful for you.",
+          "Give an example of something the other person says or does."
+        ],
+        "example": "I feel connected when someone asks about a small detail I mentioned before. It shows me they were listening. The topic does not have to be very serious."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-207",
+      "version": 1,
+      "text": "What has become more important to you as you’ve grown older?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "view_change_reason",
+      "responseGuide": {
+        "steps": [
+          "Name something that matters more to you now.",
+          "Explain the change in your own words."
+        ],
+        "example": "Having time to think has become more important to me. I used to answer every message immediately. Now I sometimes wait until I can give it my full attention."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-208",
+      "version": 1,
+      "text": "What do you enjoy even when you are not especially good at it?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Choose something you enjoy doing.",
+          "Explain what you enjoy beyond doing it well."
+        ],
+        "example": "I enjoy singing along to music even though I often miss the notes. I like the feeling of joining in. I do not need anyone else to hear it."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-209",
+      "version": 1,
+      "text": "What is a choice you are glad you made for yourself?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Describe one choice you are comfortable sharing.",
+          "Explain why you feel glad about it now."
+        ],
+        "example": "I am glad I decided to learn a little English every day. Some days I only read a few lines, but I like having something that I chose to do for myself."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-210",
+      "version": 1,
+      "text": "What helps you notice what you really think about something?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Describe something that helps you think.",
+          "Explain how it helps you understand your own opinion."
+        ],
+        "example": "Sometimes I need to say an idea out loud. When I hear myself explaining it, I notice which parts I agree with and which parts I am still unsure about."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-211",
+      "version": 1,
+      "text": "What have you learned about yourself through someone else?",
+      "status": "approved",
+      "supportPrompt": "You can agree with what they noticed, partly agree, or see it differently.",
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Recall something another person helped you notice.",
+          "Explain whether it fits your own experience."
+        ],
+        "example": "Someone noticed that I ask a lot of questions when I am interested. I had not thought about that. Looking back at our conversations, I can see what they meant."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-212",
+      "version": 1,
+      "text": "What would you like an ordinary day in your future to feel like?",
+      "status": "approved",
+      "supportPrompt": "Think about an ordinary moment rather than a perfect life.",
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Describe one part of the day you imagine.",
+          "Explain why that feeling matters to you."
+        ],
+        "example": "I would like my mornings to feel less rushed. I imagine having time to eat and think about the day. I am not sure how to arrange that yet."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-213",
+      "version": 1,
+      "text": "What is something you like about the way you see the world?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Choose one part of your perspective that you appreciate.",
+          "Use an example to make your meaning clear."
+        ],
+        "example": "I like that I notice small changes in familiar places. A new plant or a different sign can catch my attention. It gives me something to enjoy on an ordinary walk."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-214",
+      "version": 1,
+      "text": "What have you changed your mind about as you’ve learned more about yourself?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "view_change_reason",
+      "responseGuide": {
+        "steps": [
+          "Describe your earlier view.",
+          "Explain what you think now and what helped it change."
+        ],
+        "example": "I thought I disliked meeting new people. Now I think I mainly dislike very noisy places. I enjoy talking to someone new when we can hear each other easily."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-215",
+      "version": 1,
+      "text": "What do you miss about an interest you used to have?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Choose an interest you spent time on before.",
+          "Explain what you miss about it, if anything."
+        ],
+        "example": "I used to enjoy learning the names of birds. I miss having a reason to stop and look closely. I do not know whether I want to study them again, but I still notice them."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-216",
+      "version": 1,
+      "text": "What makes you feel that your time has been well spent?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Describe something that leaves you satisfied with your time.",
+          "Explain what makes it worthwhile for you."
+        ],
+        "example": "I feel that my time was well spent after a good conversation. We might not solve anything, but I enjoy understanding another person a little better."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-217",
+      "version": 1,
+      "text": "What is something you find easier to express in writing than aloud?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Choose a thought or message that is easier to write.",
+          "Explain what writing makes easier for you."
+        ],
+        "example": "It is easier for me to write when I need to disagree. I can choose my words and read them again. When I speak, I sometimes rush past the point I want to make."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-218",
+      "version": 1,
+      "text": "What would you like to try without worrying about being good at it?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Name something you would like to try.",
+          "Explain what interests you about the experience."
+        ],
+        "example": "I would like to try dancing in a class. I enjoy music, but I worry about forgetting the steps. I would like to find out whether I enjoy it anyway."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-219",
+      "version": 1,
+      "text": "What is a small way you like to show someone you care?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Describe something you choose to do.",
+          "Explain why that gesture matters to you."
+        ],
+        "example": "I sometimes send someone a photo of something that reminded me of them. It is a small way to say I was thinking about them without needing a long conversation."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-220",
+      "version": 1,
+      "text": "What part of your younger self would you like to keep?",
+      "status": "approved",
+      "supportPrompt": "Choose any time when you were younger that you feel comfortable talking about.",
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "view_change_reason",
+      "responseGuide": {
+        "steps": [
+          "Choose a quality, interest, or way of doing things.",
+          "Explain what you would like to keep about it now."
+        ],
+        "example": "I would like to keep the way I used to make things just to see what happened. I did not always need a useful result. I miss giving myself that freedom."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-221",
+      "version": 1,
+      "text": "What is something you are still figuring out about what you want?",
+      "status": "approved",
+      "supportPrompt": "You do not need to have an answer yet.",
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Share one thing you are unsure about.",
+          "Explain the possibilities without needing to choose one."
+        ],
+        "example": "I am still figuring out how much time I want to spend alone. I enjoy quiet evenings, but I also miss people sometimes. I do not think I have found the right balance yet."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-222",
+      "version": 1,
+      "text": "What makes it easier for you to say what you really mean?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Describe something that helps you speak openly.",
+          "Explain how it changes what you can say."
+        ],
+        "example": "It helps when the other person lets me finish before replying. I can explain the whole thought instead of trying to defend the first few words."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-223",
+      "version": 1,
+      "text": "What is something you choose to do simply because it matters to you?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Name something you choose for yourself.",
+          "Explain why it matters, even if others see it differently."
+        ],
+        "example": "I keep a few handwritten notes. They take up space, and I rarely read them, but I like seeing the writing of the people who gave them to me."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-224",
+      "version": 1,
+      "text": "What do you notice about yourself when you spend time alone?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Describe something you have noticed.",
+          "Give one example without needing to explain everything about yourself."
+        ],
+        "example": "When I am alone, I notice how often I reach for my phone without thinking. Sometimes I put it down again. Other times I just enjoy watching something for a while."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-225",
+      "version": 1,
+      "text": "What is a compliment that means something to you, and why?",
+      "status": "approved",
+      "supportPrompt": "It can be something someone said or something you would like to hear.",
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Recall a compliment or describe one you would appreciate.",
+          "Explain what makes it meaningful to you."
+        ],
+        "example": "I appreciate being told that I explained something clearly. I know how frustrating it can be not to understand, so it matters to me when my words help someone."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-226",
+      "version": 1,
+      "text": "What would you like to be more honest with yourself about?",
+      "status": "approved",
+      "supportPrompt": "An everyday preference is enough; share only what feels comfortable.",
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Choose something you feel comfortable naming.",
+          "Explain what you are beginning to recognize."
+        ],
+        "example": "I would like to admit when I do not enjoy a book. Sometimes I keep reading just because I started it. I think I would rather use that time for something else."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-227",
+      "version": 1,
+      "text": "What is something you want to decide for yourself more often?",
+      "status": "approved",
+      "supportPrompt": null,
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Describe a choice you would like more say in.",
+          "Explain what you would consider when making it."
+        ],
+        "example": "I want to decide more often how I spend my free time. I sometimes agree to the first suggestion before thinking. I would like to pause and ask myself what I want to do."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    },
+    {
+      "id": "STORY-228",
+      "version": 1,
+      "text": "What is something about yourself that you would like to understand better?",
+      "status": "approved",
+      "supportPrompt": "A small observation or an unanswered question is enough.",
+      "coachingLens": "expressing_yourself",
+      "techniqueId": "choice_reason_outcome",
+      "responseGuide": {
+        "steps": [
+          "Name one thing you are curious about.",
+          "Explain what you have noticed so far; uncertainty is welcome."
+        ],
+        "example": "I would like to understand why I enjoy some kinds of change and avoid others. A new activity can sound exciting, but a small change to my routine can bother me. I am still thinking about it."
+      },
+      "feedbackGuidance": {
+        "observe": [
+          "How the learner makes their own meaning understandable through a stated thought, reason, contrast, or example."
+        ],
+        "avoid": [
+          "Do not infer personality, hidden motives, emotional needs, or truths about the learner. Do not judge the belief, decision, or level of self-awareness.",
+          "Accept uncertainty, a different interpretation of the question, and a choice not to disclose. Do not demand a past event or a lesson. The real-life suggestion must concern communicating, not changing the learner’s life."
+        ]
+      }
+    }
+  ]
+}

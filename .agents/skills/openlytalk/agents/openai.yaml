@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenlyTalk"
+  short_description: "Build story-first English communication coaching"
+  default_prompt: "Use $openlytalk to define, build, or review an OpenlyTalk feature while preserving its free-sharing, random approved-question, one-response, feedback, privacy, and compatibility rules."

@@ -1,0 +1,60 @@
+{
+  "name": "openlytalk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:db": "RUN_DATABASE_TESTS=1 vitest run tests/integration/postgres-repository.test.ts tests/integration/postgres-practice-repository.test.ts tests/integration/postgres-story-repository.test.ts tests/integration/postgres-launch-guards.test.ts",
+    "test:live": "RUN_LIVE_OPENAI_TESTS=1 vitest run tests/integration/live-audio-turn.test.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:check": "drizzle-kit check",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.60.0",
+    "@mdx-js/loader": "^3.1.1",
+    "@mdx-js/react": "^3.1.1",
+    "@neondatabase/serverless": "^1.1.0",
+    "@next/mdx": "^16.3.4",
+    "bufferutil": "^4.1.0",
+    "drizzle-orm": "^1.0.0-rc.4",
+    "fix-webm-duration": "^1.0.6",
+    "music-metadata": "^11.14.0",
+    "next": "16.2.10",
+    "openai": "^6.48.0",
+    "pdfkit": "^0.20.2",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "ws": "^8.21.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/pdfkit": "^0.17.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/ws": "^8.18.1",
+    "@vitest/coverage-v8": "^4.1.10",
+    "dotenv": "^17.4.2",
+    "drizzle-kit": "^1.0.0-rc.4",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^4.1.10"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "^8.5.10"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+ALTER TABLE "practice_sessions" ALTER COLUMN "schema_version" SET DEFAULT 6;--> statement-breakpoint
+ALTER TABLE "practice_sessions" DROP CONSTRAINT "practice_sessions_supported_schema_versions", ADD CONSTRAINT "practice_sessions_supported_schema_versions" CHECK ("schema_version" in (3, 4, 5, 6));--> statement-breakpoint
+ALTER TABLE "practice_sessions" DROP CONSTRAINT "practice_sessions_response_count_by_schema", ADD CONSTRAINT "practice_sessions_response_count_by_schema" CHECK (("schema_version" = 3 and "accepted_response_count" between 0 and 5) or ("schema_version" = 4 and "accepted_response_count" between 0 and 3) or ("schema_version" = 5 and "accepted_response_count" between 0 and 2) or ("schema_version" = 6 and "accepted_response_count" between 0 and 1));

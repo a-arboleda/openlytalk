@@ -1,0 +1,111 @@
+import {
+  practiceApiErrorSchema,
+  practiceHelpRequestSchema,
+} from "@/lib/coaching/public-contracts";
+import {
+  requestPracticeHelp,
+  PracticeHelpError,
+} from "@/lib/coaching/request-practice-help";
+import { getPracticeModel } from "@/lib/openai/practice-model";
+import { getPracticeRepository } from "@/lib/persistence/postgres/practice-repository";
+import { getOrCreateAnonymousRouteSession } from "@/lib/session/route-session";
+import { databaseIdSchema } from "@/lib/validation/persistence";
+
+export const runtime = "nodejs";
+
+function errorResponse(input: {
+  status: number;
+  code:
+    | "invalid_request"
+    | "not_found"
+    | "expired"
+    | "stale_state"
+    | "provider_unavailable"
+    | "persistence_unavailable"
+    | "invalid_generated_output"
+    | "practice_not_active"
+    | "phase_not_available";
+  message: string;
+  retryable: boolean;
+}) {
+  return Response.json(
+    practiceApiErrorSchema.parse({
+      error: {
+        code: input.code,
+        message: input.message,
+        retryable: input.retryable,
+      },
+    }),
+    {
+      status: input.status,
+      headers: { "Cache-Control": "no-store" },
+    },
+  );
+}
+
+export async function POST(
+  request: Request,
+  context: { params: Promise<{ practiceSessionId: string }> },
+) {
+  const { practiceSessionId } = await context.params;
+  const parsedId = databaseIdSchema.safeParse(practiceSessionId);
+  let body: unknown;
+  try {
+    body = await request.json();
+  } catch {
+    body = null;
+  }
+  const parsedRequest = practiceHelpRequestSchema.safeParse(body);
+  if (!parsedId.success || !parsedRequest.success) {
+    return errorResponse({
+      status: 400,
+      code: "invalid_request",
+      message: "Choose one help option and try again.",
+      retryable: false,
+    });
+  }
+
+  let anonymousSessionId: string;
+  try {
+    anonymousSessionId = (await getOrCreateAnonymousRouteSession()).id;
+  } catch {
+    return errorResponse({
+      status: 503,
+      code: "persistence_unavailable",
+      message: "Your practice is temporarily unavailable. Please try again.",
+      retryable: true,
+    });
+  }
+
+  try {
+    const result = await requestPracticeHelp({
+      anonymousSessionId,
+      practiceSessionId: parsedId.data,
+      type: parsedRequest.data.type,
+      currentPartnerMessageId:
+        parsedRequest.data.currentPartnerMessageId,
+      expectedLearnerSequence:
+        parsedRequest.data.expectedLearnerSequence,
+      expectedUpdatedAt: parsedRequest.data.expectedUpdatedAt,
+      repository: getPracticeRepository(),
+      model: getPracticeModel(),
+    });
+    return Response.json(result, {
+      status: 200,
+      headers: { "Cache-Control": "no-store" },
+    });
+  } catch (error) {
+    if (error instanceof PracticeHelpError) {
+      return errorResponse({
+        status: error.status,
+        ...error.apiError,
+      });
+    }
+    return errorResponse({
+      status: 503,
+      code: "persistence_unavailable",
+      message: "We could not prepare help right now. Please try again.",
+      retryable: true,
+    });
+  }
+}

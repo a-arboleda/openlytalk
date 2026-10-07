@@ -1,0 +1,730 @@
+[
+  {
+    "id": "the-way-you-do-things",
+    "title": "The Way You Do Things",
+    "description": "Everyday habits, routines, and your own ways of getting things done.",
+    "questions": [
+      {
+        "id": "STORY-101",
+        "version": 1,
+        "text": "When you need to focus, what do you usually do to get started?",
+        "status": "approved",
+        "type": "describe",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "choice_reason_outcome",
+        "responseGuide": {
+          "steps": [
+            "Describe what you do first.",
+            "Explain how it helps you begin."
+          ],
+          "example": "I put my phone in another room and open only what I need. That makes it easier to start without checking messages."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner makes an everyday method clear with a concrete detail."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-102",
+        "version": 2,
+        "text": "Think about the last time you had too much to do. How did you decide what to do first?",
+        "status": "approved",
+        "type": "recall",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Set the scene briefly.",
+            "Explain what you chose first and why."
+          ],
+          "example": "Yesterday I had several small tasks waiting. I started with the quickest one because finishing something helped me get going."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner gives enough context to understand one specific event."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-103",
+        "version": 1,
+        "text": "What is one everyday thing you do your own way, and why?",
+        "status": "approved",
+        "type": "explain",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "choice_reason_outcome",
+        "responseGuide": {
+          "steps": [
+            "Choose one everyday activity.",
+            "Explain your method and why it works for you."
+          ],
+          "example": "I lay out everything I need before making breakfast. It takes a minute, but I do not have to keep opening cupboards."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner connects a choice or method to their stated reason."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-104",
+        "version": 2,
+        "text": "Tell me about a time someone suggested a different way to do something.",
+        "status": "approved",
+        "type": "conversation",
+        "supportPrompt": "If you need help getting started: Think of an ordinary moment, such as making, fixing, or organizing something.",
+        "coachingLens": "responding_naturally",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Say what you were doing.",
+            "Recall their suggestion and your response."
+          ],
+          "example": "I was sorting some photos when someone suggested making folders by year. I said I usually sorted them by event. They showed me their system, but I kept mine because it was familiar."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner distinguishes what each person said or meant."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-105",
+        "version": 2,
+        "text": "Think about the last time you looked for something you couldn’t find. What did you do?",
+        "status": "approved",
+        "type": "reconstruct",
+        "supportPrompt": "If you need help getting started: It can be something small you misplaced at home.",
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Say what you were looking for and where you started.",
+            "Describe what you tried next and how the search ended."
+          ],
+          "example": "I could not find a note I had written. First I checked my bag, then I looked through the papers on my table. I still did not find it, so I stopped looking for a while."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner connects the main events in a clear sequence."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-106",
+        "version": 1,
+        "text": "Think about a recent change to your routine. How did you react?",
+        "status": "approved",
+        "type": "react",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Describe the change briefly.",
+            "Explain your reaction with one detail."
+          ],
+          "example": "My usual shop was closed, so I had to go somewhere else. At first I was annoyed, but finding a closer shop was useful."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner connects their stated reaction to what happened."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-107",
+        "version": 1,
+        "text": "What is one everyday habit you have changed over the years?",
+        "status": "approved",
+        "type": "reflect",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "view_change_reason",
+        "responseGuide": {
+          "steps": [
+            "Describe how you used to do it.",
+            "Explain what changed and how you do it now."
+          ],
+          "example": "I used to keep every task in my head. Now I write a short list. I started doing that after forgetting something small but important."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner explains a change or a reason to keep doing something."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "decisions-and-why",
+    "title": "Decisions & Why You Make Them",
+    "description": "Everyday choices, changing your mind, and explaining your reasons.",
+    "questions": [
+      {
+        "id": "STORY-108",
+        "version": 1,
+        "text": "Tell me about a small decision you made recently that made your day easier.",
+        "status": "approved",
+        "type": "recall",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Name the decision.",
+            "Explain what became easier."
+          ],
+          "example": "I decided to prepare lunch before starting a long task. Later, I could take a proper break without wondering what to eat."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner gives enough context to understand one specific event."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-109",
+        "version": 1,
+        "text": "When someone invites you somewhere, what helps you decide whether to go?",
+        "status": "approved",
+        "type": "explain",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "choice_reason_outcome",
+        "responseGuide": {
+          "steps": [
+            "Describe what you consider.",
+            "Give one everyday example."
+          ],
+          "example": "I think about how much time I have and whether I want company. If my day is already full, I sometimes suggest another time."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner connects a choice or method to their stated reason."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-110",
+        "version": 2,
+        "text": "Tell me about a decision you talked through with someone before making it.",
+        "status": "approved",
+        "type": "conversation",
+        "supportPrompt": "If you need help getting started: A small everyday choice is enough; it does not need to be a major decision.",
+        "coachingLens": "responding_naturally",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Explain the choice briefly.",
+            "Recall what each of you said."
+          ],
+          "example": "I was choosing between two activities. My friend asked which one I would still want to do next month. I said I liked different things about each one. We talked for a while, but I was still unsure."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner distinguishes what each person said or meant."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-111",
+        "version": 2,
+        "text": "Tell me about a time you heard something that made you rethink a decision.",
+        "status": "approved",
+        "type": "react",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Explain what you had planned to do.",
+            "Describe what you heard and how it affected your thinking."
+          ],
+          "example": "I was going to join an evening class. Then someone mentioned how much practice it involved outside class. I started wondering whether I had enough time. I have not decided yet."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner connects new information to their stated reaction or reconsideration, without requiring a final decision."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-112",
+        "version": 2,
+        "text": "When someone suggests doing something you haven’t tried before, how do you decide whether to give it a go?",
+        "status": "approved",
+        "type": "describe",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "choice_reason_outcome",
+        "responseGuide": {
+          "steps": [
+            "Describe what you want to know before deciding.",
+            "Use one example to explain what matters to you."
+          ],
+          "example": "I usually ask what it involves and how long it takes. Someone recently suggested trying a board game. I said yes because we could play one short round and see how it went."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner makes their decision process understandable through a reason and a concrete example."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-113",
+        "version": 1,
+        "text": "When was the last time you changed your mind about something?",
+        "status": "approved",
+        "type": "reflect",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "view_change_reason",
+        "responseGuide": {
+          "steps": [
+            "Explain your first choice.",
+            "Describe what changed your mind."
+          ],
+          "example": "I planned to stay home last weekend. Then I realized I had spent most of the week indoors, so I decided to take a short walk."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner explains a change or a reason to keep doing something."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-114",
+        "version": 2,
+        "text": "Walk me through a recent decision that took longer than you expected.",
+        "status": "approved",
+        "type": "reconstruct",
+        "supportPrompt": "If you need help getting started: Think of a choice you kept putting off or comparing options for.",
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Introduce the choice.",
+            "Describe the main steps that led to your decision."
+          ],
+          "example": "I wanted to choose a book. First I read a few descriptions, then I tried the opening pages. In the end, I picked the one I wanted to keep reading."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner connects the main events in a clear sequence."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "conversations-and-people",
+    "title": "Conversations & People",
+    "description": "What people say, how you respond, and how conversations unfold.",
+    "questions": [
+      {
+        "id": "STORY-115",
+        "version": 2,
+        "text": "Tell me about a recent conversation that lasted longer than you expected.",
+        "status": "approved",
+        "type": "conversation",
+        "supportPrompt": "If you need help getting started: It could be a conversation in person, on the phone, or through messages.",
+        "coachingLens": "responding_naturally",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Say who you were talking to and how the conversation began.",
+            "Describe what kept you talking and how it ended."
+          ],
+          "example": "I asked someone if they had finished a book I had lent them. They had, but we disagreed about the ending. We kept comparing different parts until I noticed how late it was."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner distinguishes what each person said or meant."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-116",
+        "version": 1,
+        "text": "What do you usually do when you do not understand what someone means?",
+        "status": "approved",
+        "type": "describe",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "choice_reason_outcome",
+        "responseGuide": {
+          "steps": [
+            "Describe how you respond.",
+            "Give an example of what you might say."
+          ],
+          "example": "I repeat the part I understood and ask about the rest. I might say, “Do you mean today or next week?” That usually clears things up."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner makes an everyday method clear with a concrete detail."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-117",
+        "version": 2,
+        "text": "Think about a time you misunderstood someone. How did the conversation unfold?",
+        "status": "approved",
+        "type": "reconstruct",
+        "supportPrompt": "If you need help getting started: The misunderstanding does not need to have been resolved.",
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Explain what you first thought they meant.",
+            "Describe what happened next, including anything that remained unclear."
+          ],
+          "example": "Someone said they would call me later, and I thought they meant that evening. I waited, but they called the next day. We never discussed what “later” meant to each of us."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner connects the main events in a clear sequence."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-118",
+        "version": 2,
+        "text": "When you need someone’s help, how do you usually start the conversation?",
+        "status": "approved",
+        "type": "explain",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "choice_reason_outcome",
+        "responseGuide": {
+          "steps": [
+            "Give an example of how you would start.",
+            "Explain why you start that way."
+          ],
+          "example": "I usually ask, “Have you got a minute?” Then I explain what I am trying to do. I start that way because the person might be busy, and I can ask later if needed."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner illustrates an opening and explains why they use it, without prescribing one culturally correct way to ask for help."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-119",
+        "version": 1,
+        "text": "Tell me about a time you explained a choice that someone did not understand.",
+        "status": "approved",
+        "type": "recall",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Introduce your choice briefly.",
+            "Recall how you explained your reason."
+          ],
+          "example": "I chose to take a longer route. Someone asked why, so I explained that it was quieter and I had time. They understood once I gave that detail."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner gives enough context to understand one specific event."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-120",
+        "version": 1,
+        "text": "Think about a recent conversation. Is there anything you would explain differently now?",
+        "status": "approved",
+        "type": "reflect",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "view_change_reason",
+        "responseGuide": {
+          "steps": [
+            "Choose one part of the conversation.",
+            "Explain what you would keep or change and why."
+          ],
+          "example": "I explained a problem but spent too long on the background. Next time I would say what went wrong first, then add the detail that matters."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner explains a change or a reason to keep doing something."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-121",
+        "version": 1,
+        "text": "Tell me about a time someone said something that surprised you.",
+        "status": "approved",
+        "type": "react",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Recall what they said.",
+            "Explain your reaction and response."
+          ],
+          "example": "Someone told me they remembered a small favor from years ago. I had forgotten about it, so I was surprised. I said I was glad it had helped."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner connects their stated reaction to what happened."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "things-that-happened",
+    "title": "Things That Happened",
+    "description": "Everyday stories, unexpected moments, and what happened next.",
+    "questions": [
+      {
+        "id": "STORY-122",
+        "version": 2,
+        "text": "Tell me about an ordinary day when something unexpected happened.",
+        "status": "approved",
+        "type": "reconstruct",
+        "supportPrompt": "If you need help getting started: A small interruption or discovery is enough for a story.",
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Set the scene in one sentence.",
+            "Walk through the main events in order."
+          ],
+          "example": "I was tidying a drawer when I found an old note. I read it, remembered who wrote it, and sent that person a message. We had not spoken for a while."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner connects the main events in a clear sequence."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-123",
+        "version": 2,
+        "text": "Tell me about something that made you laugh recently.",
+        "status": "approved",
+        "type": "react",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Describe what happened or what someone said.",
+            "Explain what you found funny about it."
+          ],
+          "example": "I was looking for my glasses when someone pointed out that I was wearing them. I had checked two rooms already. I laughed because I had been using them to look for themselves."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner gives enough context to understand their stated reaction, without judging whether the event is funny or labelling the learner."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-124",
+        "version": 2,
+        "text": "Tell me about a time you shared unexpected news with someone.",
+        "status": "approved",
+        "type": "conversation",
+        "supportPrompt": "If you need help getting started: The news can be ordinary; you do not need to share anything private.",
+        "coachingLens": "responding_naturally",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Explain the news briefly.",
+            "Recall what you said and how they responded."
+          ],
+          "example": "I found something we had been looking for. I sent a message saying where it was. The other person replied immediately and asked how I had found it."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner distinguishes what each person said or meant."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-125",
+        "version": 1,
+        "text": "Tell me about a recent plan that turned out differently from what you expected.",
+        "status": "approved",
+        "type": "recall",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "scene_event_response",
+        "responseGuide": {
+          "steps": [
+            "Describe the original plan.",
+            "Explain what happened instead."
+          ],
+          "example": "I planned to spend the afternoon outside, but it started raining. I stayed in and finished a book. The day was different, but I enjoyed it."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner gives enough context to understand one specific event."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-126",
+        "version": 1,
+        "text": "When something small goes wrong during your day, what do you usually do first?",
+        "status": "approved",
+        "type": "describe",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "choice_reason_outcome",
+        "responseGuide": {
+          "steps": [
+            "Describe your first step.",
+            "Give a small everyday example."
+          ],
+          "example": "I pause to work out what actually happened. If I cannot find my keys, I check the last place I remember using them before looking everywhere."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner makes an everyday method clear with a concrete detail."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-127",
+        "version": 1,
+        "text": "Tell me about a small mistake that changed how you do something now.",
+        "status": "approved",
+        "type": "reflect",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "view_change_reason",
+        "responseGuide": {
+          "steps": [
+            "Describe the mistake briefly.",
+            "Explain what you do differently now."
+          ],
+          "example": "I once left a message unfinished and thought I had sent it. Now I check that important messages have actually gone through before putting my phone away."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner explains a change or a reason to keep doing something."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      },
+      {
+        "id": "STORY-128",
+        "version": 2,
+        "text": "Think about something you tried for the first time recently. Why did you try it?",
+        "status": "approved",
+        "type": "explain",
+        "supportPrompt": null,
+        "coachingLens": "explaining_clearly",
+        "techniqueId": "choice_reason_outcome",
+        "responseGuide": {
+          "steps": [
+            "Say what you tried for the first time.",
+            "Explain what led you to try it."
+          ],
+          "example": "I tried drawing a familiar object. I wanted a short break from screens, and all I needed was paper and a pencil. It was harder than I expected."
+        },
+        "feedbackGuidance": {
+          "observe": [
+            "How the learner connects a choice or method to their stated reason."
+          ],
+          "avoid": [
+            "Do not demand a story for a question about habits or reasons. Do not invent motives, feelings, dialogue, or outcomes. Do not infer stable traits."
+          ]
+        }
+      }
+    ]
+  }
+]

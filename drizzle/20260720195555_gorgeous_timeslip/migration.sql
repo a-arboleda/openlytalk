@@ -1,0 +1,1 @@
+ALTER TABLE "conversations" ALTER COLUMN "schema_version" SET DEFAULT 2;
