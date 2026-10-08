@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="16" fill="#047857"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">OpenlyTalk</title>
+  <rect width="64" height="64" rx="14" fill="#f3f0e9"/>
   <path
-    fill="#fff"
-    d="M18 19h28v19a9 9 0 0 1-9 9H28l-9 6v-6h-1a7 7 0 0 1-7-7V26a7 7 0 0 1 7-7Z"
+    fill="#10231f"
+    fill-rule="evenodd"
+    d="M32 9C20 9 12 18.5 12 32s8 23 20 23 20-9.5 20-23S44 9 32 9Zm0 5c7.5 0 11 7.5 11 18s-3.5 18-11 18-11-7.5-11-18 3.5-18 11-18Z"
   />
-  <circle cx="24" cy="33" r="3" fill="#047857"/>
-  <circle cx="32" cy="33" r="3" fill="#047857"/>
-  <circle cx="40" cy="33" r="3" fill="#047857"/>
 </svg>
