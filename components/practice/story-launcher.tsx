@@ -38,8 +38,9 @@ export function StoryLauncher({ today, showCategory = true }: { today: TodayCard
       <QuestionHeading className="daily-practice-question font-editorial mt-4 text-3xl leading-tight text-ink sm:text-4xl">{today.question}</QuestionHeading>
       {today.supportPrompt && <p className="mt-4 leading-7 text-muted">{today.supportPrompt}</p>}
       <p className="mt-5 leading-7 text-muted">Take a moment to think. Then explain it in your own words.</p>
-      <button type="button" onClick={() => void start("daily_question")} disabled={pending !== null} className="practice-choice-button practice-choice-button-clay disabled:cursor-wait disabled:opacity-60">
-        {pending ? "Opening your practice…" : "Start today’s practice"} <span aria-hidden="true">→</span>
+      <button type="button" onClick={() => void start("daily_question")} disabled={pending !== null} className="practice-choice-button practice-choice-button-clay disabled:cursor-default">
+        {pending ? "Opening your practice…" : "Start today’s practice"}
+        {pending ? <span className="practice-opening-dots" aria-hidden="true"><span /><span /><span /></span> : <span aria-hidden="true">→</span>}
       </button>
       <p className="mt-4 text-sm text-muted">A new question each day at midnight UTC.</p>
     </article>
