@@ -50,6 +50,17 @@ Feedback may reflect explicitly stated preferences or thoughts, but must not
 infer hidden truths. Real-life suggestions are communication practice, not
 instructions about how to live or a demand for more disclosure.
 
+Coach-authored feedback uses natural American English throughout, including
+the real-life suggestion. Generation includes a final language edit for idiomatic
+phrasing, balanced coordination, and accessible spoken examples. Verbatim
+learner quotes and English-polish originals remain unchanged; valid British
+English is not an error. Prefer “Try starting with” to stiff coaching directions.
+This edit occurs within the existing request and does not guarantee flawless
+language. The opt-in live feedback regression covers exercise and family time;
+review its synthetic example and real-life suggestion for naturalness as well
+as running the existing evidence checks. Previously saved feedback stays as
+submitted, and PDFs continue to reproduce it without a second evaluation.
+
 ## Questions in scheduled order
 
 1. What is something you wish people understood better about you?
