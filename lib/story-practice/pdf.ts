@@ -50,8 +50,18 @@ export async function createPracticePdf(session: PublicStory): Promise<Buffer> {
     doc.on("error", reject);
   });
   const width = doc.page.width - 104;
-  doc.fillColor("#294F40").font("Heading").fontSize(12).text("OpenlyTalk");
-  doc.moveDown(0.7).fontSize(25).text("Your speaking practice");
+  // Draw the favicon as vectors so the mark stays crisp in print and at zoom.
+  // Geometry and colors match app/icon.svg.
+  const headerY = doc.y;
+  doc.save().translate(52, headerY).scale(0.625);
+  doc.roundedRect(0, 0, 64, 64, 14).fill("#f3f0e9");
+  doc.path("M32 9C20 9 12 18.5 12 32s8 23 20 23 20-9.5 20-23S44 9 32 9Zm0 5c7.5 0 11 7.5 11 18s-3.5 18-11 18-11-7.5-11-18 3.5-18 11-18Z")
+    .fill("#10231f", "even-odd");
+  doc.restore();
+  doc.fillColor("#10231f").font("Heading").fontSize(14)
+    .text("OpenlyTalk", 104, headerY + 11, { width: width - 52 });
+  doc.fillColor("#294F40").fontSize(25)
+    .text("Your speaking practice", 52, headerY + 56, { width });
   doc.moveDown(0.4).font("Body").fontSize(10).fillColor("#59605B")
     .text(`${session.entryMode === "free_share" ? "Share anything" : "Practice question"}  |  ${session.updatedAt.slice(0, 10)}`);
   doc.moveDown(1.4);
